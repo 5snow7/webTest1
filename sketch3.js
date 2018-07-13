@@ -1,5 +1,5 @@
 let can;
-let p, c;
+let p, c,par1;
 let par;
 let t,r=50;
 
@@ -7,13 +7,15 @@ let t,r=50;
 function setup() {
   // put setup code here
   can = createCanvas(400, 400);
-  can.position(50, 50);
+  can.position(250, 150);
   t=new logo(100,200,0);
   p = new part(100, 100);
   //can.mousePressed(chcolor);
   par = createP("test again twicw");
   par.position(30, 400);
-
+par1=createP("a second test");
+  par1.position(50,220);
+  par1.class("decor1");
 }
 let x3 = 0;
 let y3 = 0;
