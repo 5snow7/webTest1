@@ -5,7 +5,7 @@
     <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
     <style> body {padding: 0;
       margin: 0;} </style>
-    <a href="http://snowtowind.com">your ticket home</a>
+    <a href="http://snowtowind.com" id="st">your ticket home</a>
     <script src="library/p5.dom.js"></script>
     <script src="library/p5.dom.min.js"></script>
   <script src="library/p5.js"></script>
@@ -20,12 +20,14 @@
   <body>
     <p> test of using a paragraph </p>
     <p id="p1"> para with id</p>
-    
+
 <style>
 #p1 {border:double;border-color:green;}
 p{border:double;border-color:red;}
 .decor1{border:dashed;border-width: 25px;border-color:red;
   background-color: lightgreen;}
+  #st{position:relative;top:30px;left:110px;border-style:double;
+  border-width:20px;}
 </style>
   </body>
 </html>
