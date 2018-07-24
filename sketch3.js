@@ -7,11 +7,11 @@ let t,r=50;
 function setup() {
   // put setup code here
   can = createCanvas(400, 400);
-  can.position(250, 150);
+  can.position(350, 150);
   t=new logo(100,200,0);
   p = new part(100, 100);
   //can.mousePressed(chcolor);
-  par = createP("test again twicw");
+  par = createP("test again twice");
   par.position(30, 400);
 par1=createP("a second test");
   par1.position(50,220);
