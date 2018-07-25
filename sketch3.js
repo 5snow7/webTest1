@@ -5,7 +5,7 @@ let t,r=50;
 
 
 function setup() {
-  // put setup code here
+  start();
   can = createCanvas(400, 400);
   can.position(350, 150);p1=select("#p1");
   p1.position(800,300);
@@ -40,7 +40,9 @@ t.bk(300);
   fill(0, 0, 250);
   line(20, 20, 200, 200);
   ellipse(100, 300, 30, 50);
+push();fill(c1,c2,c3);
   rect(29, 29, 200, 20);
+pop();
   move();
     p.display1(30,r);p.move();p.chbd();
 //if(how_old(12)=='a'){r=200;}else{}
