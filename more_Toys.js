@@ -6,7 +6,7 @@ slider2=createSlider(0,250,100,5);
 slider3=createSlider(0,250,100,5);
 parP=createP("changing colors of the rectangle.............");
 parP.style('padding','20px');
-slider1.parent(parP);parP.position(800,70);
+slider1.parent(parP);parP.position(800,120);
 slider2.parent(parP);
 slider3.parent(parP);
 slider1.mousePressed(()=>{c1=slider1.value();});

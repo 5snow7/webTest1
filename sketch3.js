@@ -7,8 +7,9 @@ let t,r=50;
 function setup() {
   start();
   can = createCanvas(400, 400);
-  can.position(350, 150);p1=select("#p1");
-  p1.position(800,300);
+  can.position(350, 80);can.class("can1");
+  p1=select("#p1");
+  p1.position(800,400);
   t=new logo(100,200,0);
   p = new part(100, 100);
   //can.mousePressed(chcolor);
