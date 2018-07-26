@@ -1,4 +1,4 @@
-let can;
+let can,p1;
 let p, c,par1;
 let par;
 let t,r=50;
@@ -7,11 +7,13 @@ let t,r=50;
 function setup() {
   start();
   can = createCanvas(400, 400);
-  can.position(350, 150);
+  can.position(350, 80);can.class("can1");
+  p1=select("#p1");
+  p1.position(800,400);
   t=new logo(100,200,0);
   p = new part(100, 100);
   //can.mousePressed(chcolor);
-  par = createP("test again twice");
+  par = createP("test branch again");
   par.position(30, 400);
 par1=createP("a branch pull change test");
   par1.position(50,220);
@@ -39,7 +41,9 @@ t.bk(300);
   fill(0, 0, 250);
   line(20, 20, 200, 200);
   ellipse(100, 300, 30, 50);
+push();fill(c1,c2,c3);
   rect(29, 29, 200, 20);
+pop();
   move();
     p.display1(30,r);p.move();p.chbd();
 //if(how_old(12)=='a'){r=200;}else{}
