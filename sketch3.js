@@ -5,7 +5,7 @@ let t,r=50;
 
 
 function setup() {
-  // put setup code here
+  start();
   can = createCanvas(400, 400);
   can.position(350, 150);
   t=new logo(100,200,0);
