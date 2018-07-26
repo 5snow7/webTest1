@@ -13,9 +13,9 @@ function setup() {
   t=new logo(100,200,0);
   p = new part(100, 100);
   //can.mousePressed(chcolor);
-  par = createP("test again");
+  par = createP("test branch again");
   par.position(30, 400);
-par1=createP("a branch test");
+par1=createP("a branch pull change test");
   par1.position(50,220);
   par1.class("decor1");
 }
