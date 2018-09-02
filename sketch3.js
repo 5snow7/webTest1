@@ -18,7 +18,8 @@ function setup() {
 par1=createP("a new test of change in branch1");
   par1.position(50,220);
   par1.class("decor1");
-  par2==createP("a 2cd test par for branching");
+  par2=createP("a 2cd test branching");
+  par2.position(450,420);par2.class("decor1");
 }
 let x3 = 0;
 let y3 = 0;
