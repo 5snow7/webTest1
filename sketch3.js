@@ -1,6 +1,6 @@
 let can,p1;
 let p, c,par1;
-let par;
+let par,par2;
 let t,r=50;
 
 
@@ -18,6 +18,7 @@ function setup() {
 par1=createP("a new test of change in branch1");
   par1.position(50,220);
   par1.class("decor1");
+  par2==createP("a 2cd test par for branching");
 }
 let x3 = 0;
 let y3 = 0;
