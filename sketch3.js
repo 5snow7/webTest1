@@ -29,8 +29,7 @@ function draw() {
   background(200, 0, 0);fill(col,0,0);
   col+=1;
   if(col>250){col=50;}
-
-  ellipse(50,50,200,100);
+  ellipse(50,50,100,200);
 t.fd(200);t.lt(60);
 t.bk(300);
   fill(0, 0, 250);
