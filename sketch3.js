@@ -30,7 +30,8 @@ function draw() {
   col+=1;
   if(col>250){col=50;}
 text("test",50,50);
-  ellipse(50,50,100,200);
+  ellipse(50,50,300,200);
+  
 t.fd(200);t.lt(60);
 t.bk(300);
   fill(0, 0, 250);
